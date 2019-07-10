@@ -6,3 +6,17 @@
 
 // Note: String will have at least one element; words will always be separated by a space.
 
+function char_count(str) 
+{
+ var letter_Count = 0;
+ for (var position = 0; position < str.length; position++) 
+ {
+    // if (str.charAt(position) == letter) 
+    //   {
+    //   letter_Count += 1;
+    //   }
+  }
+  return letter_Count;
+}
+
+console.log(char_count('hello'))
